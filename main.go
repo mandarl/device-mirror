@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/mandarl/device-mirror/browser"
 	"github.com/mandarl/go-selfupdate/selfupdate"
 	"github.com/mkideal/cli"
 )
@@ -13,7 +14,7 @@ var VERSION string = "dev"
 
 type argT struct {
 	cli.Helper
-	Argument string `cli:"*a,arg" usage:"some argument"`
+	Argument string `cli:"a,arg" usage:"some argument"`
 	Version  bool   `cli:"!v,version" usage:"print the current version"`
 }
 
@@ -31,6 +32,8 @@ func run(args *argT) {
 		os.Exit(0)
 	}
 	runUpdate()
+
+	browser.LaunchChrome()
 
 	fmt.Printf("Hello Mr. %s\n", args.Argument)
 }
