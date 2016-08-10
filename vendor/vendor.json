@@ -63,6 +63,24 @@
 			"revisionTime": "2016-07-29T12:19:31Z"
 		},
 		{
+			"checksumSHA1": "l/VP91xR3aFUiW3w82Vdn62IX80=",
+			"path": "github.com/zach-klippenstein/goadb",
+			"revision": "e87d5c6814c66a994a58b8bf1e3faf213e347c99",
+			"revisionTime": "2016-05-22T18:16:37Z"
+		},
+		{
+			"checksumSHA1": "mjnzUGTqifWMSSGbDYDjS8Wc9Rw=",
+			"path": "github.com/zach-klippenstein/goadb/internal/errors",
+			"revision": "e87d5c6814c66a994a58b8bf1e3faf213e347c99",
+			"revisionTime": "2016-05-22T18:16:37Z"
+		},
+		{
+			"checksumSHA1": "DUM+RnO28HVVqKeFZwU7SXdz7f4=",
+			"path": "github.com/zach-klippenstein/goadb/wire",
+			"revision": "e87d5c6814c66a994a58b8bf1e3faf213e347c99",
+			"revisionTime": "2016-05-22T18:16:37Z"
+		},
+		{
 			"checksumSHA1": "8fD/im5Kwvy3JgmxulDTambmE8w=",
 			"path": "golang.org/x/sys/unix",
 			"revision": "a646d33e2ee3172a661fc09bca23bb4889a41bc8",
