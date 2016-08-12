@@ -6,6 +6,7 @@ import (
 	"os"
 
 	"github.com/mandarl/device-mirror/browser"
+	"github.com/mandarl/device-mirror/server"
 	"github.com/mandarl/go-selfupdate/selfupdate"
 	"github.com/mkideal/cli"
 )
@@ -33,7 +34,8 @@ func run(args *argT) {
 	}
 	runUpdate()
 
-	browser.LaunchChrome()
+	browser.Launch()
+	server.HandleFunc()
 
 	fmt.Printf("Hello Mr. %s\n", args.Argument)
 }
